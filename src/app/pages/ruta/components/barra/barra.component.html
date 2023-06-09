@@ -1,0 +1,7 @@
+<div class="tabla-exp">
+  <div class="barras-contenido" [ngStyle]="tabla()">
+    <div class="barras" *ngFor="let barra of barras; let i = index" [ngStyle]="posicion(barra.ciclo_inicio_barra, barra.ciclo_unlock_barra)">
+      {{ barra.descripcion_barra }}
+    </div>
+  </div>
+</div>

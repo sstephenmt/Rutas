@@ -1,0 +1,18 @@
+<div class="tabla-exp" [ngStyle]="tabla()" *ngIf="experiencias">
+    <div class="btn-exp" *ngFor="let experiencia of experiencias"
+        (click)="abrirContenido(experiencia.id_contenido)"
+        [ngStyle]="posicion(experiencia.ciclo_inicio,experiencia.ciclo_fin,experiencia.fila_experiencia)">
+        <img class="icono-btn" [src]="experiencia.icono_categoria" alt="">
+         <span class="btn-titulo">{{ experiencia.titulo }}</span>
+    </div>
+</div>
+<div class="container btn_logros">
+    <div class="btn-float ">
+        <a href="https://ucontinental.edu.pe/logros-por-carreras/#1595257957333-ab1dd253-2000" target="_blank" class="btn"><i class="fa-solid fa-star fa-sm px-1"></i>Nuestros Logros</a>
+    </div>
+</div>
+<div class="container btn_wsp">
+    <div class="btn-float">
+        <a href="https://api.whatsapp.com/send/?phone=51971115546&text=Hola%2C+necesito+mas+informaci%C3%B3n+de+https%3A%2F%2Fucontinental.edu.pe&type=phone_number&app_absent=0" target="_blank" class="btn"><i class="fa-brands fa-whatsapp fa-xl" style="color: #26a63b;"></i></a>
+    </div>
+  </div>

@@ -1,0 +1,22 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Establece el contenedor para ocupar el 100% de la altura de la ventana */
+}
+
+.header {
+  height: auto; /* Altura automática según el contenido del header */
+  flex: 0 0 auto; /* El header no se expande y ocupa solo su contenido */
+}
+
+.body {
+  flex: 1; /* El cuerpo se expande para ocupar el espacio restante */
+  overflow-y: auto;
+  /* Habilita el desplazamiento vertical si el contenido del cuerpo excede su altura */
+}
+
+.footer {
+  height: 80px; /* Altura automática según el contenido del footer */
+  flex: 0 0 auto; /* El footer no se expande y ocupa solo su contenido */
+}
+

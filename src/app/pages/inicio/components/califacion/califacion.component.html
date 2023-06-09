@@ -1,0 +1,43 @@
+<div class="bod">
+  <div class="general">
+    <div class="general-calificacion">
+      <!-- <div class="estrella">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div> -->
+      <div class="estrella-2 d-flex">
+        <div (click)="estrellaSeleccionada(1)">
+          <div class="fas fa-star"></div>
+        </div>
+        <div (click)="estrellaSeleccionada(2)">
+          <div class="fas fa-star"></div>
+        </div>
+        <div (click)="estrellaSeleccionada(3)">
+          <div class="fas fa-star"></div>
+        </div>
+        <div (click)="estrellaSeleccionada(4)">
+          <div class="fas fa-star"></div>
+        </div>
+        <div (click)="estrellaSeleccionada(5)">
+          <div class="fas fa-star"></div>
+        </div>
+      </div>
+      <div class="comentario">
+        <div>Comentario</div>
+        <input type="text" #comentario />
+      </div>
+      <div class="boton-enviar">
+        <div (click)="calificar()">
+          <span id="span1"></span>
+          <span id="span2"></span>
+          <span id="span3"></span>
+          <span id="span4"></span>
+          Enviar
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

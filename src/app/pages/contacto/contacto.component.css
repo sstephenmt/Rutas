@@ -1,0 +1,101 @@
+.bod{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0 0 0 / 0.65);
+    height: 280px;
+    width: 100%;
+
+}
+.texto{
+
+    display: flex;
+    justify-content: center;
+    background-image: url(https://www.carrerasadistancia.com.pe/img/article/universidad-continental-acreditaciones);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+}
+.texto-inicio{
+
+    height: 280px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+}
+p{
+    color: #f6f5f5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* formualrio */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo-texto{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(180deg, #000, #555555);
+    width: 60%;
+    height: 40%;
+}
+
+.txt{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.txt input {
+    width: 150%; /* Ancho deseado */
+    height: 50%; /* Altura deseada */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h1{
+    color: #ffffff;
+}

@@ -1,0 +1,46 @@
+.cabezera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background-color: #000;
+    height: 80px;
+}
+.texto_cabezara div:hover {
+    cursor: pointer;
+    background-color: #535350; /* Cambia el color de fondo al pasar el cursor */
+    color: #ffffff; /* Cambia el color del texto al pasar el cursor */
+    
+}
+.logo{
+    width: 150px;
+    height: auto;
+}
+.texto_cabezara {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.75rem;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.texto_cabezara div:nth-child(1):hover {
+    transform: translateY(-7px);
+    transition: all 0.5s ease 0s;
+
+  }
+  
+  .texto_cabezara div:nth-child(2):hover {
+    transform: translateY(-7px);
+    transition: all 0.5s ease 0s;
+  }
+  
+  .texto_cabezara div:nth-child(3):hover {
+    transform: translateY(-7px);
+    transition: all 0.5s ease 0s;
+  }

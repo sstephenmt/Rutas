@@ -1,0 +1,55 @@
+  footer{
+    background-color: #000;
+  }
+
+  footer span{
+    font-size: small;
+  }
+  footer h5{
+    font-size: small;
+  }
+   .info_redes .fa-facebook{
+	 
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: -0px -0px 10px rgba(239, 231, 231, 0.5);
+    border-radius: 15px;
+    padding: 10px 10px;
+    transition: all 0.3s ease 0s;
+    }
+
+  .info_redes .fa-facebook:hover{
+   background-color: #4a6fc0;
+   transform: translateY(-7px);
+  }
+
+  .info_redes .fa-twitter{
+	 
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: -0px -0px 10px rgba(239, 231, 231, 0.5);
+    border-radius: 15px;
+    padding: 10px 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.info_redes .fa-twitter:hover{
+    background-color:  #00acee ;
+    transform: translateY(-7px);
+ }
+
+ .info_redes .fa-instagram{
+ 
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: -0px -0px 10px rgba(239, 231, 231, 0.5);
+    border-radius: 15px;
+    padding: 10px 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.info_redes .fa-instagram:hover{
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    transform: translateY(-7px);
+ }
+

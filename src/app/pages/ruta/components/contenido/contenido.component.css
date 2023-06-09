@@ -1,0 +1,107 @@
+.color_exp {
+  --carrera-color-1: rgb(2, 2, 198);
+  --carrera-color-2: rgb(119, 21, 205);
+  --carrera-color-3: rgb(163, 4, 163);
+  --carrera-color-4: rgb(234, 3, 3);
+  --carrera-color-5: rgb(255, 82, 29);
+  --carrera-color-6: rgb(177, 125, 244);
+  --carrera-color-7: rgb(237, 118, 244);
+  --carrera-color-8: rgb(249, 115, 115);
+  --carrera-color-9: rgb(255, 135, 115);
+  --carrera-color-10: rgb(99, 253, 203);
+  --carrera-color-11: rgb(2, 2, 198);
+  --carrera-color-12: rgb(164, 2, 164);
+  --carrera-color-13: rgb(104, 2, 189);
+  --carrera-color-14: rgb(231, 3, 2);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  pointer-events: none;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 600px;    
+  background-color: white;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.cerrar {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.contenido {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.multimedia_contenido {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.texto_contenido {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.titulo_contenido h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.subtitulo_contenido h1 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+  text-align: left;
+  text-transform: initial;
+}
+
+.parrafo_contenido h2 {
+  font-size: 16px;
+  color: #999;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+@keyframes square-in-center {
+  from {
+    clip-path: inset(100% 100% 100% 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}

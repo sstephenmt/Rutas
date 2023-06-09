@@ -1,0 +1,16 @@
+<div>
+    <div class="pagina-sede">
+        <div class="sede">
+            <div *ngIf="sede">
+                <p>{{sede.nombre_sede}}</p>
+                <img [src]="sede.imagen_sede" alt="{{sede.nombre_sede}}" />                
+            </div>
+        </div>
+        <div class="carrera">
+            <div class="img-carrera" *ngFor="let carrera of carreras" (click)="verRuta(carrera)" >
+                <p>{{carrera.nombre_carrera}}</p>
+                <img [src]="carrera.imagen_carrera"  alt="{{carrera.nombre_carrera}}"  />
+            </div>
+        </div>
+    </div>
+</div>

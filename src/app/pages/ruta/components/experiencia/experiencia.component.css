@@ -1,0 +1,130 @@
+.btn-exp {
+    --carrera-color-1: rgb(2, 2, 198);
+    --carrera-color-2: rgb(119, 21, 205);
+    --carrera-color-3:rgb(163, 4, 163);
+    --carrera-color-4:rgb(234, 3, 3) ;
+    --carrera-color-5: rgb(255, 82, 29);
+    --carrera-color-6:rgb(177, 125, 244);
+    --carrera-color-7: rgb(237, 118, 244);
+    --carrera-color-8: rgb(249, 115, 115);
+    --carrera-color-9:rgb(255, 135, 115);
+    --carrera-color-10:rgb(99, 253, 203);    
+    --carrera-color-11: rgb(2, 2, 198);  
+    --carrera-color-12: rgb(164, 2, 164);
+    --carrera-color-13: rgb(104, 2, 189);
+    --carrera-color-14: rgb(231, 3, 2); 
+}
+
+.btn-exp{
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top: 10px;
+    cursor: pointer;
+   
+}
+.btn-exp img{
+    text-align: center;
+    margin: auto;
+    margin: 3px;
+    width: 25px;
+    filter: hue-rotate(270deg);
+    filter: invert(100%);
+   
+}
+
+.btn-exp img:hover{
+    animation: rotate 1.4s linear ;
+}
+
+.btn-exp:hover .icono-btn {
+    filter: invert(0%);
+  }
+
+
+.btn-exp:hover{
+   
+    transform: translateY(-5px);
+    transition: all 2.5s ease 0.1s;  
+}
+
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.btn-exp .btn-titulo{
+    width: 105px;
+    background-color: black;
+    margin: 1px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -50px;
+    font-size: 11px;
+}
+
+.btn-exp:hover .btn-titulo{
+    visibility: visible;
+}
+
+
+.btn_logros .btn-float .btn{
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    background-color: #ffffff;
+    padding: 10px 12px;
+    border-radius: 20px;
+    color: #4e49b5;
+    position: fixed;
+    right: 80px;
+    bottom: 6.5cqmax;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    z-index: 99;
+    }
+  
+  .btn_logros .btn-float .btn:hover{
+    color: #f51b1b;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-7px);
+    }
+  
+    .btn_wsp .btn-float .btn{
+          text-decoration: none;
+          font-size: 1.3rem;
+          font-weight: bold;
+          background-color: #ffffff;
+          padding: 10px 12px;
+          border-radius: 50px;
+          color: #fff;
+          position: fixed;
+          right: 10px;
+          bottom: 6.5cqmax;
+          transition: all 0.3s ease 0s;
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+          z-index: 99;		
+      }
+      .btn_wsp .btn-float .btn:hover{
+  
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+          transform: translateY(-7px);
+        }
+
+
+.tabla-exp{
+    margin-bottom:10px;
+}

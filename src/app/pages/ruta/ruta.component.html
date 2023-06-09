@@ -1,0 +1,10 @@
+<div style="position: relative; height: 100%;">
+    <div class="text-cabezera" *ngIf="carrera">
+        {{carrera.nombre_carrera}}
+    </div>
+    <app-ciclos [ciclos]="carrera.id_ciclo"></app-ciclos>
+    <app-experiencia [experiencias]="experiencias" [ciclos]="carrera.id_ciclo"></app-experiencia>
+    <app-barra [barras]="barras"></app-barra>
+
+    <app-contenido *ngIf="estado"> </app-contenido>
+</div>

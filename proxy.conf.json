@@ -1,0 +1,9 @@
+{ 
+    "/api": {
+        "target": "https://restapi-production-575c.up.railway.app",
+        "secure": false,
+        "pathRewrite": {
+            "^/api": ""
+        }
+    }
+}

@@ -1,0 +1,54 @@
+<div class="bod">
+    <div class="texto">
+        <div class="texto-inicio">
+            <div class="overlay">
+                <div class="texto-1">
+                    <h1>Universidad continental</h1>
+                    <p>En la Universidad Continental no solo recibirás una formación 
+                        académica con altos estándares de calidad; también desarrollarás 
+                        tus habilidades y talentos gracias a los programas y actividades 
+                        extracurriculares que tenemos para ti.</p>
+                </div>
+                <div class="texto-1">
+                    <h1>Nuestros Campus</h1>
+                    <p>Conoce más sobre nuestras carreras. Completa
+                         el formulario y recibirpas informacipon 
+                        sobre tu carrera de interpes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="formulario">
+        <div class="campo-texto">
+            <div class="txt">
+                <input type="text" placeholder="Nombre" #nombre>
+            </div>
+            <div class="txt">
+                <input type="text" placeholder="Apellido Paterno" #apPaterno>
+            </div>
+            <div class="txt">
+                <input type="text" placeholder="Apellido Materno" #apMaterno>
+            </div>
+            <div class="txt">
+                <input type="text" placeholder="Telefono" #telefono>
+            </div>
+            <div class="txt">
+                <input type="text" placeholder="Email" #correo>
+            </div>
+            <div class="txt">
+                <input type="text" placeholder="Fecha" #fecha>
+            </div>
+            <div class="txt">
+                <input type="text" placeholder="Modalidad" #modalidad>
+            </div>
+        </div>
+        <h1>¿Desearia que te contactemos?</h1>
+        <div class="confirmacion">
+            <input type="checkbox" id="miCheckbox">
+            <label for="miCheckbox">Otorgo expresamente mi consentimiento para que mis datos personales sean tratados de acuerdo con 
+              la <a href="https://ucontinental.edu.pe/politica-de-privacidad/">política de tratamiento de datos</a>.
+            </label>
+          </div>
+        <button type="submit" (click)="contactar()">Enviar</button>
+    </div>
+</div>

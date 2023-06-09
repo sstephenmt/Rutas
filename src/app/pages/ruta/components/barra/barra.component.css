@@ -1,0 +1,31 @@
+.barras {
+    --carrera-color-1: rgb(2, 2, 198);
+    --carrera-color-2: rgb(119, 21, 205);
+    --carrera-color-3: rgb(163, 4, 163);
+    --carrera-color-4: rgb(234, 3, 3);
+    --carrera-color-5: rgb(255, 82, 29);
+    --carrera-color-6: rgb(177, 125, 244);
+    --carrera-color-7: rgb(237, 118, 244);
+    --carrera-color-8: rgb(249, 115, 115);
+    --carrera-color-9: rgb(255, 135, 115);
+    --carrera-color-10: rgb(99, 253, 203);
+    --carrera-color-11: rgb(2, 2, 198);
+    --carrera-color-12: rgb(164, 2, 164);
+    --carrera-color-13: rgb(104, 2, 189);
+    --carrera-color-14: rgb(231, 3, 2);
+}
+
+.barras{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color:aliceblue;
+    
+}
+
+.barras-contenido{
+    margin-bottom: 10px;
+    display: flex;
+}

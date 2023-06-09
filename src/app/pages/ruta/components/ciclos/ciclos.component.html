@@ -1,0 +1,5 @@
+<div  [ngStyle]="tabla()">
+    <div *ngFor="let ciclo of arrayCiclo, let i =index" class="ciclo">
+        <img [src]="'assets/ciclos/'+(i+1)+'.png'" alt="">
+    </div>
+</div>
